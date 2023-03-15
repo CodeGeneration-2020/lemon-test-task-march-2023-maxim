@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"jsx": "react",
+		"module": "CommonJS",
+		"declaration": true,
+		"removeComments": true,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"allowSyntheticDefaultImports": true,
+		"target": "es2017",
+		"sourceMap": true,
+		"outDir": "./dist",
+		"baseUrl": "./",
+		"incremental": true,
+		"useDefineForClassFields": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"esModuleInterop": true,
+		"typeRoots": ["index.d.ts"],
+		"types": ["node"],
+	},
+	"exclude": ["./node_modules", "./typings"]
+}
